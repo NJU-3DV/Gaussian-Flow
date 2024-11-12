@@ -1,27 +1,28 @@
 # Gaussian-Flow
 
-## Prepare the environment
+## Prepare the Environment
 
-Install the latest version of `pointrix`:
+First, install the latest version of `pointrix`:
 
 ```bash
-git clone https://github.com/pointrix-project/pointrix.git  --recursive
-cd pointrix && python -m pip install -r requirements.txt && python -m pip install .
+git clone https://github.com/pointrix-project/pointrix.git --recursive
+cd pointrix
+python -m pip install -r requirements.txt
+python -m pip install .
 ```
 
-Install `polyfourier`:
+Next, install `polyfourier`:
 
 ```bash
 python -m pip install git+https://github.com/Linyou/polyfourier.git
 ```
 
+## Running the Experiments
 
-## Runnning the experiments
-
-To run the `Nerfies Dataset` experiments, you can use the following command:
+To run the `Nerfies Dataset` experiments, use the following command:
 
 ```bash
 python launch.py --config configs/nerfies.yaml datapipeline.dataset.data_path='path/to/nerfies/dataset'
 ```
 
-> Note: the latest `pointrix` has a webgui that can be used to monitor the training process. You can access it by opening a browser and navigating to `http://localhost:8918`.
+> **Note:** The latest `pointrix` includes a web GUI for monitoring the training process. Access it by opening a browser and navigating to `http://localhost:8918`.
