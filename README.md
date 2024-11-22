@@ -9,7 +9,7 @@ This is the official implementation of *Gaussian-Flow: 4D Reconstruction with Dy
 
 ## Prepare the Environment
 
-First, install the latest version of `pointrix`:
+First, install the latest version of `Pointrix`:
 
 ```bash
 git clone https://github.com/pointrix-project/pointrix.git --recursive
