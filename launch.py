@@ -10,6 +10,7 @@ from controller.gf import GFDensificationController
 from model.model import GaussianFlow
 from data.data import NerfiesDataset
 from data.dnerf_data import DNeRFDataset
+from data.custom_data import CustomDataset
 from model.point import GaussianFlowPointCloud
 from model.renderer import GaussianFlowRender
 from model.camera import TimeCameraModel
