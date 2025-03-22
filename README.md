@@ -1,7 +1,7 @@
 # [CVPR 2024 Highlight] Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle
 
 This is the official implementation of *Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle*. 
-> Note: We swiched to the [Pointrix](https://github.com/pointrix-project/pointrix) framework for a more efficient and cleaner implementation. The codebase is still under development and will be updated frequently.
+> Note: We swiched to the [Pointrix](https://github.com/pointrix-project/pointrix) framework for a more efficient and cleaner implementation. To reproduce the results presented in the paper, please refer to our original implementation [here](https://github.com/Linyou/D3DGS/tree/d3dgs_poly), which is based on the Inria codebase of [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting).
 
 ### [Project Page](https://nju-3dv.github.io/projects/Gaussian-Flow/) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Lin_Gaussian-Flow_4D_Reconstruction_with_Dynamic_3D_Gaussian_Particle_CVPR_2024_paper.pdf) | [Arxiv](https://arxiv.org/abs/2312.03431)
 
